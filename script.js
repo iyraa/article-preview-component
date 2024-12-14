@@ -6,13 +6,11 @@ const arrowDown = document.querySelector(".arrow-down");
 shareBtn.addEventListener("click", () => {
   // Remove the attached class
   sharePopOut.classList.toggle("flex");
-  arrowDown.classList.toggle("flex");
 });
 
 window.addEventListener("resize", () => {
   if (window.innerWidth <= 600) {
     sharePopOut.classList.remove("flex");
-    arrowDown.classList.remove("flex");
   }
 });
 
