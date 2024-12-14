@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -21,60 +20,83 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <div class="container">
-      <div class="left-container">
+    <!-- Center container -->
+    <main class="container">
+      <!-- Left column with image-->
+      <section class="col-left">
         <img src="/images/drawers.jpg" alt="drawer.jpg" />
-      </div>
-      <div class="right-container">
-        <h1>
-          Shift the overall look and feel by adding these wonderful touches to
-          furniture in your home
-        </h1>
+      </section>
 
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps it
-          felt slightly bare and uninviting. I’ve got some simple tips to help
-          you make any room feel complete.
-        </p>
+      <!-- Right column -->
+      <section class="col-right">
+        <!-- Description -->
+        <article>
+          <h1>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
 
-        <div class="bottom-container">
-          <div class="profile">
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </article>
+
+        <!-- Bottom part of column right -->
+        <!-- Profile details and share button will go here-->
+        <footer class="container-footer">
+          <!-- Profile details -->
+          <!-- Disappear in mobile size-->
+          <section class="profile">
             <img src="/images/avatar-michelle.jpg" alt="michelle.jpg" />
 
-            <div class="info">
+            <article>
               <p class="bold">Michelle Appleton</p>
               <p>28 Jun 2020</p>
-            </div>
-          </div>
+            </article>
+          </section>
 
-          <div class="share">
+          <button id="share-btn">
             <img src="/images/icon-share.svg" alt="share.svg" />
-          </div>
-
-          <div class="share-pop-out">
+          </button>
+        </footer>
+        <!-- Share section -->
+        <!-- Pop up when click share btn -->
+        <!-- remove display and place in right col in mobile view-->
+        <section class="share-pop-out appear">
             <span>SHARE</span>
             <img src="/images/icon-facebook.svg" alt="icon-facebook" />
             <img src="/images/icon-twitter.svg" alt="icon-twitter" />
             <img src="/images/icon-pinterest.svg" alt="icon-pinterest" />
-          </div>
-          <div class="arrow-down"></div>
-        </div>
-        <div class="arrow-down"></div>
-      </div>
-      <div class="alt-bot">
-        <span>SHARE</span>
-        <img src="/images/icon-facebook.svg" alt="icon-facebook" />
-        <img src="/images/icon-twitter.svg" alt="icon-twitter" />
-        <img src="/images/icon-pinterest.svg" alt="icon-pinterest" />
-      </div>
-    </div>
+          </button>
+        </section>
 
-    <div class="attribution">
+        <!-- arrow for pop up -->
+        <div class="arrow-down"></div>
+
+        <footer class="share-footer">
+          <article>
+            <span>SHARE</span>
+            <img src="/images/icon-facebook.svg" alt="icon-facebook" />
+            <img src="/images/icon-twitter.svg" alt="icon-twitter" />
+            <img src="/images/icon-pinterest.svg" alt="icon-pinterest" />
+          </article>
+
+          <button id="share-btn-bottom">
+            <img src="/images/icon-share.svg" alt="share.svg" />
+          </button>
+        </footer>
+      </section>
+    </main>
+
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >
+      Coded by <a href="#">Your Name Here</a>.
+    </footer>
 
     <script src="script.js"></script>
   </body>
