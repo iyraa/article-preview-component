@@ -1,6 +1,5 @@
 const shareBtn = document.getElementById("share-btn");
 const sharePopOut = document.querySelector(".share-pop-out");
-const arrowDown = document.querySelector(".arrow-down");
 
 // Add a click event listener to toggle appear class
 shareBtn.addEventListener("click", () => {
