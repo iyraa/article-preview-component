@@ -29,15 +29,6 @@ p {
   font-size: 14px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  margin: auto;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 .bold {
   font-weight: bold;
 }
@@ -121,6 +112,10 @@ p {
   background-color: var(--dark-grayish-blue);
 }
 
+.share-btn:hover {
+  background-color: var(--desaturated-dark-blue);
+}
+
 .share-btn > img {
   max-width: 70%;
   height: auto;
@@ -194,6 +189,10 @@ p {
   background-color: var(--opacity-grayish-blue);
 }
 
+#share-footer-btn:hover {
+  background-color: var(--desaturated-dark-blue);
+}
+
 /*attribution footer*/
 .attribution {
   position: absolute;
@@ -201,6 +200,13 @@ p {
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 20px;
+  font-size: 11px;
+  text-align: center;
+  margin: auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 
