@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.jpg)
+![Desktop](https://github.com/iyraa/article-preview-component/blob/main/images/screenshot-1.png?raw=true/screenshot-1.png)
+![Mobile](https://github.com/iyraa/article-preview-component/blob/main/images/screenshot-2.png?raw=true)
 
 ### Links
 
