@@ -1,6 +1,6 @@
 # Frontend Mentor - Article preview component solution
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -45,13 +45,11 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+CSS Positioning.
 
-To see how you can add code snippets, see below:
+#### Lesson take away
 
-#### Lesson take away 
-
-Finding a method to position share pop up near the share button, allow me to learn more about positioning using CSS. 
+Finding a method to position share pop up near the share button, allow me to learn more about positioning using CSS.
 
 ### Continued development
 
@@ -60,7 +58,7 @@ Trying a different css frameworks or javascript library for more complex project
 ### Useful resources
 
 - [W3 schools](https://www.w3schools.com/) - This website has tons of example that can be edited in this project.
-- [Codepen project](https://codepen.io/iyraa/pen/RNboZbQ) - I made an example of share pop up using css and javascript for my future self (or if it helps anyone else)! 
+- [Codepen project](https://codepen.io/iyraa/pen/RNboZbQ) - I made an example of share pop up using css and javascript for my future self (or if it helps anyone else)!
 
 ## Author
 
